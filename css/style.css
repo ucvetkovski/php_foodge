@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Oswald:wght@200;400&display=swap');
+
+body{
+    font-family: 'Caveat', cursive;
+}
+
+#banner{
+    background: linear-gradient(rgba(249,228,148,0.5), rgba(249,228,148,0.35)), url("../assets/cover.jpg") fixed center;
+    color: white;
+    padding: 15% 0;
+}
+
+#banner h1{
+    letter-spacing: 0.3em;
+}
+
+#menu{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.card{
+    flex: 20%;
+    margin: 10px;
+    min-height: 200px;
+}
+
+.card-text{
+    font-size: larger;
+}
+
+#menuItems{
+    /* display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 0px auto; */
+    --bs-gutter-x: 0px;
+}
+
+#aboutSection{
+    background: linear-gradient(rgba(249,228,148,0.5), rgba(249,228,148,0.35)), url("../assets/about.jpg") center/cover fixed;
+    padding: 2rem;
+}
+
+#about{
+    margin: 0px auto;
+    padding: 0px auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2%;
+}
+
+#about p{
+    font-size: 25px;
+}
+
+#aboutImg{
+    background-image: url("../assets/aboutImg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card{
+        flex: 30%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .card{
+        flex: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        flex: 40%;
+    }
+}
+
+/* .centerLogReg{
+    margin: 0px auto;
+    padding: 0px auto;
+} */
+
+
+#backLogReg{
+    background-image:url("../assets/regCover.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.form-group{
+    margin: 7px 0;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.error{
+    border: 1px solid red;
+}
+
+#cbNewsletter{
+    margin: 10px;
+}
+
+#ja{
+    background-image: url("../assets/JA.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about{
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+}
+
+
+.center{
+    margin: 0px auto;
+    padding : 0px auto;
+}
+
+#tableSelect{
+    width: 70%;
+}
+
+.deleteProduct{
+    color: #f0ad4e;
+}
+
+.editProduct{
+    color: #f0ad4e;
+}
+
+.deleteProduct:hover{
+    color: red;
+}
+
+.editProduct:hover{
+    color:blue;
+}
